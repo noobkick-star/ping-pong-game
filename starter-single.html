@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong JavaScript</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <canvas id="pong" width="900" height="600" style="padding-left: 0 ;margin-top: 20px  ;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100%;
+    background-attachment: fixed;"> >
+  </canvas>
+  <div id="start"><a href="starter-single-easy.html"><button id="easy-but1">Easy</button></a>
+    <a href="single-medium.html"><button id="easy-but2">Medium</button></a>
+    <a href="single-hard.html"><button id="easy-but3">Hard</button></a>
+  </div>
+  <div id="desl">
+    
+    <p><h5> Right side is computer's paddle </h5> </p>
+    <hr>
+
+    <p> Use up and down arrow key for movement  </p>
+  </div>
+  <div id="desr">
+    <br><br>
+    <p> Difficulty level will increase speed as well as playing skill of computer </p>
+  
+ 
+    
+  </div>
+  <script src="starter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <style>
+    #start {
+      position: absolute;
+      top: 40%;
+      left: 42.5%;
+      background-color: #3d334b;
+      opacity: 0.9;
+      height: 40%;
+      width: 15%;
+      border-radius: 15px;
+      border-style: double;
+      border-color: grey;
+    }
+
+    #desl{
+	position: absolute;
+	top:30%;
+  color: black ;
+	left: 1%;
+	background-color: #9779c2;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 11%;
+	height: 30%;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: grey;
+}
+#desr{
+	position: absolute;
+	top:30%;
+	right: 1%;
+  color: rgb(17, 17, 17);
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #9779c2;
+	width: 11%;
+	height: 30%;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: grey;
+}
+
+    #easy-but1 {
+      position: relative;
+      top: 10%;
+      left: 5%;
+      background-color: #3d334b;
+      opacity: 0.9;
+      height: 25%;
+      width: 90%;
+      border-radius: 15px;
+      color: white;
+      font-size: 150%;
+    }
+
+    #easy-but2 {
+      position: relative;
+      top: 15%;
+      left: 5%;
+      background-color: #3d334b;
+      opacity: 0.9;
+      height: 25%;
+      width: 90%;
+      border-radius: 15px;
+      color: white;
+      font-size: 150%;
+    }
+
+    #easy-but3 {
+      position: relative;
+      top: 20%;
+      left: 5%;
+      background-color: #3d334b;
+      opacity: 0.9;
+      height: 25%;
+      width: 90%;
+      border-radius: 15px;
+      color: white;
+      font-size: 150%;
+    }
+
+
+    body {
+      background-color: antiquewhite;
+    }
+  </style>
+</body>
+
+</html>
